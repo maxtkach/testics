@@ -1,0 +1,7 @@
+@import "variables"
+%text_gradient {
+    background-image: $color-gradient-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}

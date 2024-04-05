@@ -1,0 +1,72 @@
+$color-dark-bg: #FFFFFF;
+$color-main: #323264;
+$color-line: rgba(255, 255, 255, 0.3);
+$color-alt: #46466E;
+$color-soft: #686887;
+$color-accent: #F0145A;
+$color-active : #24A3FF;
+$color-hover : #0085FF;
+$active-active : #006CCF;
+$color-bg : #F5F5FA;
+$color-bg-alt : #EDEDF7;
+$color-text : #B3B3BA;
+$color-dark-text: #000;
+$color-separator : #E6E6F0;
+$color-gradient-main : linear-gradient(128.63deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
+$color-gradient-soft :linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+$color-gradient-red : linear-gradient(323.35deg, #F0145A 6.7%, #693264 70.36%);
+$color-gradient-supersoft: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+$color-gradient-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+$color-gradient-revers: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+
+
+h1 {
+  background: $color-gradient-red;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+h2 {
+  color: $color-main;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+}
+
+h3 {
+  color: $color-text;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@mixin paragraph {
+  color: $color-dark-text;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+@mixin mobile-links {
+  color: $color-text;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}

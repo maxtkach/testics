@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Montserrat"),
+        url('../fonts/Montserrat/Montserrat-Bold.woff') format("woff"),
+        url('../fonts/Montserrat/Montserrat-Bold.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Geometria"),
+        url('../fonts/Montserrat/Montserrat-Regular.woff') format("woff"),
+        url('../onts/Montserrat/Montserrat-Regular.woff2') format("woff2");
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font: bold 38px/1.2 'Montserrat', 'sans-serif';
+    text-align: center;
+
+}
+
+h2 {
+    font: bold 30px/1.2 'Montserrat', 'sans-serif';
+}
+
+h3 {
+    font: bold 22px/1.2 'Montserrat', 'sans-serif';
+}
+
+h4 {
+    font: bold 16px/1.2 'Montserrat', 'sans-serif';
+}
+
+p {
+    font: normal 16px/1.6 'Montserrat', 'sans-serif';
+}
+
+li {
+    font: normal 18px/1.2 'Montserrat', 'sans-serif';
+    height: auto;
+}
+
+a {
+    font: normal 16px/1.25 'Montserrat', 'sans-serif';
+    text-decoration: none;
+    transition: 0.2s linear;
+
+
+}
+
+address {
+    font: normal 16px/1.6 'Montserrat', 'sans-serif';
+}
+
+blockquote {
+    margin: 0;
+}
+
+cite {
+    font-style: normal;
+}
+
+time {
+    font: bold 12px/1.2 'Montserrat', 'sans-serif';
+}
